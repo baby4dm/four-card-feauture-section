@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 100%);
+  background-color: #F8F9FA;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -75,16 +75,16 @@ body {
   width: 60px;
 }
 .card1 {
-  border-top: 6px solid hsl(180, 62%, 55%);
+  border-top: 4px solid hsl(180, 62%, 55%);
 }
 .card2 {
-  border-top: 6px solid hsl(0, 78%, 62%);
+  border-top: 4px solid hsl(0, 78%, 62%);
 }
 .card3 {
-  border-top: 6px solid hsl(34, 97%, 64%);
+  border-top: 4px solid hsl(34, 97%, 64%);
 }
 .card4 {
-  border-top: 6px solid hsl(212, 86%, 64%);
+  border-top: 4px solid hsl(212, 86%, 64%);
 }
 
 @media (min-width: 1100px) {
@@ -99,6 +99,12 @@ body {
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 2rem;
+  }
+  .main-title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 2rem;
   }
 
   .card1 {
